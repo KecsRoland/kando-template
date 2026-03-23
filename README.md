@@ -1,8 +1,10 @@
 # React + Vite + Kandó
 
-Update: Kandós favicon és specifikus ikonok, BrowserRouter-re és bootstrap-icons-ra felkészítve a main.jsx és a package.json-ben is!
-Korábbi npm-es React telepítőről átalakítva Vite-kompatibilissá.
+Update: Kandós favicon és specifikus ikonok, bootstrap-re és bootstrap-icons-ra felkészítve a main.jsx és a package.json-ben is!
+Korábbi npm-es React telepítőről átalakítva bun-os Vite-kompatibilissá.
 Ez a sablon minimális beállítást biztosít a React Vite-ban való működéséhez HMR-rel és néhány ESLint szabállyal.
+
+A routing-ot korábban megszokott App.jsx-ben tudod beállítani (kivettem a main.jsx-ből, hogy a duplikációt megakadályozzam, ebből kifolyólag sok problémától megszabadulunk...)
 
 Jelenleg két hivatalos bővítmény érhető el:
 
